@@ -58,3 +58,58 @@ A download column is available in the log viewer grid to allow the admin to easi
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/1/_/1._enable_log_download_extension_from_here_1.webp)
 
+**2. path for_log_viewer_to_view_details_of_logs**
+
+![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/2/_/2._path_for_log_viewer_to_view_details_of_logs_1.webp)
+
+**3. Complete Details of Logs**
+
+![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/3/_/3._view_complete_details_of_all_logs_and_download_them_from_admin_panel_1.webp)
+
+**4. Downloaded_log_file_from_admin_grid
+
+![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/4/_/4._downloaded_log_file_from_admin_grid_1.webp)
+
+## Support
+
+In case of any queries about our extensions or services, feel free to write to us at our [Support Portal](https://magecomp.com/support/).
+
+## Contact us
+
+In case you would want to contact us, reach out to us at:
+
+Phone: +917990250277
+
+Email: [support@magecomp.com](mailto:support@magecomp.com)
+
+## Other Magento 2 Extensions by MageComp
+
+[Magento 2 AJAX Infinite Scroll Extension](https://magecomp.com/magento-2-ajax-infinite-scroll.html)
+
+[Magento 2 Image Alt Tags Extension](https://magecomp.com/magento-2-image-alt-tags.html)
+
+[Magento 2 Google Address Lookup](https://magecomp.com/magento-2-google-address-lookup.html)
+
+[Magento 2 Facebook Pixel](https://magecomp.com/magento-2-facebook-pixel.html)
+
+[Magento 2 Free Shipping Bar Extension](https://magecomp.com/magento-2-free-shipping-bar.html)
+
+[Magento 2 Shipping Calculator](https://magecomp.com/magento-2-shipping-calculator.html)
+
+[Magento 2 Bulk Coupon Delete](https://magecomp.com/magento-2-bulk-coupon-delete.html)
+
+[Magento 2 Disable Right Click](https://magecomp.com/magento-2-disable-right-click.html)
+
+[Magento 2 Aramex Shipping Integration](https://magecomp.com/magento-2-aramex-shipping-integration.html)
+
+[Magento 2 Inventory Sync SOAP API](https://magecomp.com/magento-2-inventory-sync-soap-api.html)
+
+[Google One Tap Login](https://marketplace.magento.com/magecomp-magento-2-google-one-tap-login.html)
+
+[Facebook Shop](https://marketplace.magento.com/magecomp-magento-2-facebook-shop.html)
+
+[Product Animated GIF](https://marketplace.magento.com/magecomp-magento-2-product-animated-gif.html)
+
+[Instagram Integration](https://marketplace.magento.com/magecomp-magento-2-instagram-integration.html)
+
+[Advanced Extra Fee](https://marketplace.magento.com/magecomp-magento-2-advanced-extra-fee.html)

@@ -104,6 +104,8 @@ Email: [support@magecomp.com](mailto:support@magecomp.com)
 
 [Magento 2 Inventory Sync SOAP API](https://magecomp.com/magento-2-inventory-sync-soap-api.html)
 
+## Magento Marketplace Extensions By MageComp
+
 [Google One Tap Login](https://marketplace.magento.com/magecomp-magento-2-google-one-tap-login.html)
 
 [Facebook Shop](https://marketplace.magento.com/magecomp-magento-2-facebook-shop.html)
@@ -113,3 +115,14 @@ Email: [support@magecomp.com](mailto:support@magecomp.com)
 [Instagram Integration](https://marketplace.magento.com/magecomp-magento-2-instagram-integration.html)
 
 [Advanced Extra Fee](https://marketplace.magento.com/magecomp-magento-2-advanced-extra-fee.html)
+
+[Tier Price](https://marketplace.magento.com/magecomp-module-tierprice.html)
+
+[Out Of Stock Notification](https://marketplace.magento.com/magecomp-magento-2-out-of-stock-notification.html)
+
+[Assign Order To Customer](https://marketplace.magento.com/magecomp-magento-2-assign-order-to-customer.html)
+
+[Restrict Cash On Delivery](https://marketplace.magento.com/magecomp-module-restrictcod.html)
+
+[Hide Price](https://marketplace.magento.com/magecomp-module-hideprice.html)
+

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Config/etc/system_file.xsd">
+    <system>
+        <tab id="magecomp" translate="label" sortOrder="80">
+             <label><![CDATA[]]></label>
+        </tab>
+        <section id="magecomp" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Log Download</label>
+            <tab>magecomp</tab>
+            <resource>Magecomp_Logdownload::config_logdownload</resource>
+            <group id="logviewer" translate="label" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Configuration</label>
+                <field id="enable" translate="label comment" sortOrder="1" type="select" showInDefault="1" >
+                    <label>Log Download</label>
+					<source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

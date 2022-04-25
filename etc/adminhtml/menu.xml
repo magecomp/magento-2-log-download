@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    	<add id="Magecomp_Logdownload::logs" title="Magecomp Logs Viewer" module="Magecomp_Logdownload" dependsOnConfig="magecomp/logviewer/enable" sortOrder="10" parent="Magento_Backend::system" resource="Magento_Backend::system"/>
+        <add id="Magecomp_Logdownload::report_logs" title="View Logs" module="Magecomp_Logdownload" sortOrder="1" parent="Magecomp_Logdownload::logs" action="logview/table/index" resource="Magento_Backend::system" dependsOnConfig="magecomp/logviewer/enable"/>
+    </menu>
+</config>

@@ -1,0 +1,28 @@
+<?php $logs = $block->getLogFiles(); ?>
+<section class="admin__page-section">
+    <div class="admin__page-section-content">
+        <div class="admin__table-primary">
+            <table class="admin__table-primary">
+                <tr>
+                    <th>File name</th>
+                    <th>Path</th>
+                    <th>Size</th>
+                    <th>Last Updated</th>
+                    <th>Admin Actions</th>
+                </tr>
+            <?php foreach($logs as $log) { ?>
+                <tr>
+                    <td><?php echo $log['name'] ?></td>
+                    <td>var/log</td>
+                    <td><?php echo $log['filesize'] ?></td>
+                    <td><?php echo $log['modTimeLong'] ?></td>
+                    <td>
+                   
+                        <a href="<?php echo $block->downloadLogFiles($log['name']); ?>">Download</a>
+                    </td>
+                </tr>
+            <?php } ?>
+            </table><br>
+        </div>
+    </div>
+</section>

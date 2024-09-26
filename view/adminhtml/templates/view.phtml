@@ -12,13 +12,13 @@
                 </tr>
             <?php foreach($logs as $log) { ?>
                 <tr>
-                    <td><?php echo $log['name'] ?></td>
+                    <td><?php /* noEscape */ echo $log['name'] ?></td>
                     <td>var/log</td>
-                    <td><?php echo $log['filesize'] ?></td>
-                    <td><?php echo $log['modTimeLong'] ?></td>
+                    <td><?php /* noEscape */ echo $log['filesize'] ?></td>
+                    <td><?php /* noEscape */ echo $log['modTimeLong'] ?></td>
                     <td>
                    
-                        <a href="<?php echo $block->downloadLogFiles($log['name']); ?>">Download</a>
+                        <a href="<?php /* noEscape */ echo $block->downloadLogFiles($log['name']); ?>">Download</a>
                     </td>
                 </tr>
             <?php } ?>

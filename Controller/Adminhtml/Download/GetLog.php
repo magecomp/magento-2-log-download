@@ -5,11 +5,11 @@ use Magento\Backend\App\Action\Context;
 use Magento\Backend\Controller\Adminhtml\System;
 use Magento\Framework\App\Response\Http\FileFactory;
 use Magento\Framework\Exception\NotFoundException;
-use Zend_Filter_BaseName;
+
+
 
 abstract class GetLog extends System
 {
-   
     protected $fileFactory;
     public function __construct(Context $context, FileFactory $fileFactory)
     {
@@ -22,8 +22,9 @@ abstract class GetLog extends System
         $param = $this->getRequest()->getParams();
         $filePath = $this->getFilePathWithFile($param[0]);
 
-        $filter   = new Zend_Filter_BaseName();
-        $fileName = $filter->filter($filePath);
+
+        $filter =  basename($filePath);
+        $fileName = $filePath;
         try {
             return $this->fileFactory->create(
                 $fileName,
@@ -36,7 +37,4 @@ abstract class GetLog extends System
             throw new NotFoundException(__($e->getMessage()));
         }
     }
-
-   
 }
-
